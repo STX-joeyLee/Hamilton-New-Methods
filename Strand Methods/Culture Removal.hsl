@@ -1,0 +1,80 @@
+#include "Culture Removal.res"
+/* {{ 2 "LibraryInsertLine" "" */ // }} ""
+global device ML_STAR ("Culture Removal.lay", "ML_STAR", hslTrue);
+/* {{ 2 "VariableInsertLine" "" */ // }} ""
+// {{ 2 "TemplateIncludeBlock" ""
+ namespace _Method { #include "HSLMETEDLib.hs_" } 
+ namespace _Method { #include "HSLMECCLib.hs_" } 
+// }} ""
+// {{{ 2 "LocalSubmethodInclude" ""
+ namespace _Method {  #include __filename__ ".sub"  } 
+// }} ""
+/* {{ 2 "ProcessInsertLine" "" */ // }} ""
+// {{{ 5 "main" "Begin"
+namespace _Method { method main(  ) void {
+// }} ""
+// {{ 5 "main" "InitLocals"
+// }} ""
+// {{ 2 "AutoInitBlock" ""
+::RegisterAbortHandler( "OnAbort");
+// }} ""
+// {{ 1 1 0 "810face9_9794_4389_9695d5c03c60f2b4" "ML_STAR:{1C0C0CB0-7C87-11D3-AD83-0004ACB1DCB2}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._1C0C0CB0_7C87_11D3_AD83_0004ACB1DCB2("810face9_9794_4389_9695d5c03c60f2b4"); // Initialize
+}
+// }} ""
+// {{ 2 1 0 "41899a6f_7684_48d9_93f419078a0f35c4" "ML_STAR:{BD0D210B-0816-4C86-A903-D6B2DF73F78B}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._BD0D210B_0816_4C86_A903_D6B2DF73F78B("41899a6f_7684_48d9_93f419078a0f35c4"); // Head96TipPickUp
+}
+// }} ""
+// {{ 3 1 0 "fec7256b_0723_4989_b1ade72e00c33938" "ML_STAR:{827392A0-B7E8-4472-9ED3-B45B71B5D27A}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._827392A0_B7E8_4472_9ED3_B45B71B5D27A("fec7256b_0723_4989_b1ade72e00c33938"); // Head96Aspirate
+}
+// }} ""
+// {{ 4 1 0 "c4844cee_9806_4aa0_afb410f2d1cf1283" "ML_STAR:{A48573A5-62ED-4951-9EF9-03207EFE34FB}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._A48573A5_62ED_4951_9EF9_03207EFE34FB("c4844cee_9806_4aa0_afb410f2d1cf1283"); // Head96Dispense
+}
+// }} ""
+// {{ 5 1 0 "c45d6178_0d99_4727_b90862bf18dc623d" "ML_STAR:{2880E77A-3D6D-40FE-AF57-1BD1FE13960C}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._2880E77A_3D6D_40FE_AF57_1BD1FE13960C("c45d6178_0d99_4727_b90862bf18dc623d"); // Head96TipEject
+}
+// }} ""
+// {{ 6 1 0 "2a549c13_34f0_4ab3_a8069f667b41306a" "ML_STAR:{BD0D210B-0816-4C86-A903-D6B2DF73F78B}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._BD0D210B_0816_4C86_A903_D6B2DF73F78B("2a549c13_34f0_4ab3_a8069f667b41306a"); // Head96TipPickUp
+}
+// }} ""
+// {{ 7 1 0 "e6c0db34_0f40_4e98_ba5ca26d0432a6d0" "ML_STAR:{827392A0-B7E8-4472-9ED3-B45B71B5D27A}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._827392A0_B7E8_4472_9ED3_B45B71B5D27A("e6c0db34_0f40_4e98_ba5ca26d0432a6d0"); // Head96Aspirate
+}
+// }} ""
+// {{ 8 1 0 "69dac8a6_0d6f_4ea7_85103d5e71b97405" "ML_STAR:{A48573A5-62ED-4951-9EF9-03207EFE34FB}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._A48573A5_62ED_4951_9EF9_03207EFE34FB("69dac8a6_0d6f_4ea7_85103d5e71b97405"); // Head96Dispense
+}
+// }} ""
+// {{ 9 1 0 "84ae4efb_7814_496c_992b7969d5852cfe" "ML_STAR:{2880E77A-3D6D-40FE-AF57-1BD1FE13960C}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._2880E77A_3D6D_40FE_AF57_1BD1FE13960C("84ae4efb_7814_496c_992b7969d5852cfe"); // Head96TipEject
+}
+// }} ""
+// {{ 2 "AutoExitBlock" ""
+// }} ""
+// {{{ 5 "main" "End"
+} }
+// }} ""
+// $$author=Hamilton$$valid=0$$time=2021-08-25 13:20$$checksum=e6e1ff30$$length=087$$

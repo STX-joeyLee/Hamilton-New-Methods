@@ -1,0 +1,22 @@
+// {{{ 2 "SubmethodForwardDeclaration" ""
+function OnAbort(  ) void ;
+// }} ""
+// {{{ 5 "OnAbort" "Begin"
+function OnAbort(  ) void {
+// }} ""
+// {{ 5 "OnAbort" "InitLocals"
+// }} ""
+// {{ 162 1 0 "28eb1679_deab_4766_9553275785843c53" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{{ 163 1 0 "e71d920a_7104_4b6e_b80e395f210501a4" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TipCount::Write2(ML_STAR.MlStar300ulStandardVolumeTip, Translate("tips300uL"), ML_STAR);
+// }} ""
+// {{ 164 1 0 "28eb1679_deab_4766_9553275785843c53" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{{ 5 "OnAbort" "End"
+}
+// }} ""
+/* {{ 2 "SubmethodInsertLine" "" */ // }} ""
+// $$author=Hamilton$$valid=0$$time=2022-03-03 11:57$$checksum=766bb5a8$$length=087$$

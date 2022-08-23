@@ -1,0 +1,18 @@
+
+// this ALWAYS GENERATED file contains the sub-method library header
+// Generated at 3/11/2016 2:05:09 PM
+
+#pragma once
+#ifndef HSL_RUNTIME
+namespace _96_HEAD_FW_COMMAND {
+function _InitLibrary() { }
+function _ExitLibrary() { }
+function _96HeadAsp_Disp( variable _LabwareID, variable _Aspirate, variable _Dispense, variable _GotoTraverseBeforeAsp, variable _GotoTraverseAfterAsp, variable _LLDSearchHeight, variable _FixedHeightDuringAsp, variable _pp, variable _iw, variable _ix, variable _fh, variable _af, variable _wv, variable _cm, variable _cs, variable _hv, variable _hc, variable _hp, variable _zv, variable _zq, variable _mj, variable _cj, variable _cx, variable _cr, variable _liquidClass, variable _sleepBetweenPlungerMove, variable _GotoTraverseHeightBeforeDisp, variable _GotoTraverseHeightAfterDisp, variable _df, variable _fixedHeightDuringDispense, device & System, sequence & _sequenceLabWareID, variable _bv, variable _bvDispense, variable _sequencePosition, variable _sleepDispense ) void { }
+function _96HeadFullParameters( variable _LabwareID, variable _Aspirate, variable _Dispense, variable _GotoTraverseBeforeAsp, variable _GotoTraverseAfterAsp, variable _LLDSearchHeight, variable _FixedHeightDuringAsp, variable _pp, variable _iw, variable _ix, variable _fh, variable _af, variable _wv, variable _cm, variable _cs, variable _hv, variable _hc, variable _hp, variable _zv, variable _zq, variable _mj, variable _cj, variable _cx, variable _cr, variable _liquidClass, variable _sleepBetweenPlungerMove, variable _GotoTraverseHeightBeforeDisp, variable _GotoTraverseHeightAfterDisp, variable _df, variable _fixedHeightDuringDispense, device & System, sequence & _sequenceLabWareID, variable _bv, variable _bvDispense ) void { }
+} // namespace
+#endif
+
+#ifdef HSL_RUNTIME
+#include __filename__ ".hsi"
+#endif
+// $$author=fcprochem$$valid=0$$time=2016-03-11 14:05$$checksum=ce26620e$$length=086$$

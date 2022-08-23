@@ -1,0 +1,25 @@
+// {{{ 2 "SubmethodForwardDeclaration" ""
+function OnAbort(  ) void ;
+// }} ""
+// {{{ 5 "OnAbort" "Begin"
+function OnAbort(  ) void {
+// }} ""
+// {{ 5 "OnAbort" "InitLocals"
+// }} ""
+// {{{ 265 1 0 "ec65c29c_8574_4ee3_b82d855a3e9beeea" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TipCount::Write2(ML_STAR.MlStar1000ulHighVolumeTip, Translate("1000uL_Tips"), ML_STAR);
+// }} ""
+// {{{ 266 1 0 "47f3e28f_0484_4075_9d904f662b284336" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TipCount::Write2(ML_STAR.MlStar10ulLowVolumeTip, Translate("10uL_Tips"), ML_STAR);
+// }} ""
+// {{{ 267 1 0 "0fdfb0e8_58d6_42fc_9b4bc194f63125b8" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TipCount::Write2(ML_STAR.MlStar300ulStandardVolumeTip, Translate("300uL_Tips"), ML_STAR);
+// }} ""
+// {{{ 268 1 0 "5a56d775_14b6_4e01_9be667fadd5dd8a8" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TipCount::Write2(ML_STAR.MlStar50ulTip, Translate("50uL_Tips"), ML_STAR);
+// }} ""
+// {{{ 5 "OnAbort" "End"
+}
+// }} ""
+/* {{ 2 "SubmethodInsertLine" "" */ // }} ""
+// $$author=Hamilton$$valid=0$$time=2021-11-11 14:36$$checksum=b5a04340$$length=087$$
